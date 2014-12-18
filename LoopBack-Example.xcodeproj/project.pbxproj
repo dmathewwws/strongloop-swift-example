@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF2CABEA1A355E8000950F7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2CABE91A355E8000950F7A /* AppDelegate.swift */; };
+		AF2CABEC1A355E8000950F7A /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2CABEB1A355E8000950F7A /* MasterViewController.swift */; };
+		AF2CABEE1A355E8000950F7A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2CABED1A355E8000950F7A /* DetailViewController.swift */; };
+		AF2CABF11A355E8000950F7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF2CABEF1A355E8000950F7A /* Main.storyboard */; };
+		AF2CABF31A355E8000950F7A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF2CABF21A355E8000950F7A /* Images.xcassets */; };
+		AF2CABF61A355E8000950F7A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF2CABF41A355E8000950F7A /* LaunchScreen.xib */; };
+		AF2CAC021A355E8000950F7A /* LoopBack_ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2CAC011A355E8000950F7A /* LoopBack_ExampleTests.swift */; };
+		AF2CAC0C1A355EC900950F7A /* LoopBack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF2CAC0B1A355EC900950F7A /* LoopBack.framework */; };
+		AF8011DB1A42542C000787A4 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8011DA1A42542C000787A4 /* Utilities.swift */; };
+		AFC47D301A3BC55800D81014 /* Transactions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC47D2F1A3BC55800D81014 /* Transactions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF2CABFC1A355E8000950F7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF2CABDC1A355E7F00950F7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF2CABE31A355E8000950F7A;
+			remoteInfo = "LoopBack-Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF2CABE41A355E8000950F7A /* LoopBack-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LoopBack-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF2CABE81A355E8000950F7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF2CABE91A355E8000950F7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF2CABEB1A355E8000950F7A /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		AF2CABED1A355E8000950F7A /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		AF2CABF01A355E8000950F7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF2CABF21A355E8000950F7A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AF2CABF51A355E8000950F7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		AF2CABFB1A355E8000950F7A /* LoopBack-ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LoopBack-ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF2CAC001A355E8000950F7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF2CAC011A355E8000950F7A /* LoopBack_ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopBack_ExampleTests.swift; sourceTree = "<group>"; };
+		AF2CAC0B1A355EC900950F7A /* LoopBack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LoopBack.framework; sourceTree = "<group>"; };
+		AF2CAC0D1A355FE900950F7A /* LoopBack-Example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LoopBack-Example-Bridging-Header.h"; sourceTree = "<group>"; };
+		AF8011DA1A42542C000787A4 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		AFC47D2F1A3BC55800D81014 /* Transactions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transactions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF2CABE11A355E8000950F7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF2CAC0C1A355EC900950F7A /* LoopBack.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF2CABF81A355E8000950F7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF2CABDB1A355E7F00950F7A = {
+			isa = PBXGroup;
+			children = (
+				AF2CABE61A355E8000950F7A /* LoopBack-Example */,
+				AF2CAC0B1A355EC900950F7A /* LoopBack.framework */,
+				AF2CABFE1A355E8000950F7A /* LoopBack-ExampleTests */,
+				AF2CABE51A355E8000950F7A /* Products */,
+				AF2CAC0D1A355FE900950F7A /* LoopBack-Example-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		AF2CABE51A355E8000950F7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF2CABE41A355E8000950F7A /* LoopBack-Example.app */,
+				AF2CABFB1A355E8000950F7A /* LoopBack-ExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF2CABE61A355E8000950F7A /* LoopBack-Example */ = {
+			isa = PBXGroup;
+			children = (
+				AF2CABE91A355E8000950F7A /* AppDelegate.swift */,
+				AF2CABEB1A355E8000950F7A /* MasterViewController.swift */,
+				AF2CABED1A355E8000950F7A /* DetailViewController.swift */,
+				AFC47D2F1A3BC55800D81014 /* Transactions.swift */,
+				AF8011DA1A42542C000787A4 /* Utilities.swift */,
+				AF2CABEF1A355E8000950F7A /* Main.storyboard */,
+				AF2CABF21A355E8000950F7A /* Images.xcassets */,
+				AF2CABF41A355E8000950F7A /* LaunchScreen.xib */,
+				AF2CABE71A355E8000950F7A /* Supporting Files */,
+			);
+			path = "LoopBack-Example";
+			sourceTree = "<group>";
+		};
+		AF2CABE71A355E8000950F7A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF2CABE81A355E8000950F7A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AF2CABFE1A355E8000950F7A /* LoopBack-ExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF2CAC011A355E8000950F7A /* LoopBack_ExampleTests.swift */,
+				AF2CABFF1A355E8000950F7A /* Supporting Files */,
+			);
+			path = "LoopBack-ExampleTests";
+			sourceTree = "<group>";
+		};
+		AF2CABFF1A355E8000950F7A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF2CAC001A355E8000950F7A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF2CABE31A355E8000950F7A /* LoopBack-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF2CAC051A355E8000950F7A /* Build configuration list for PBXNativeTarget "LoopBack-Example" */;
+			buildPhases = (
+				AF2CABE01A355E8000950F7A /* Sources */,
+				AF2CABE11A355E8000950F7A /* Frameworks */,
+				AF2CABE21A355E8000950F7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LoopBack-Example";
+			productName = "LoopBack-Example";
+			productReference = AF2CABE41A355E8000950F7A /* LoopBack-Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF2CABFA1A355E8000950F7A /* LoopBack-ExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF2CAC081A355E8000950F7A /* Build configuration list for PBXNativeTarget "LoopBack-ExampleTests" */;
+			buildPhases = (
+				AF2CABF71A355E8000950F7A /* Sources */,
+				AF2CABF81A355E8000950F7A /* Frameworks */,
+				AF2CABF91A355E8000950F7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF2CABFD1A355E8000950F7A /* PBXTargetDependency */,
+			);
+			name = "LoopBack-ExampleTests";
+			productName = "LoopBack-ExampleTests";
+			productReference = AF2CABFB1A355E8000950F7A /* LoopBack-ExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF2CABDC1A355E7F00950F7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "com.red-cedar";
+				TargetAttributes = {
+					AF2CABE31A355E8000950F7A = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					AF2CABFA1A355E8000950F7A = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = AF2CABE31A355E8000950F7A;
+					};
+				};
+			};
+			buildConfigurationList = AF2CABDF1A355E7F00950F7A /* Build configuration list for PBXProject "LoopBack-Example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF2CABDB1A355E7F00950F7A;
+			productRefGroup = AF2CABE51A355E8000950F7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF2CABE31A355E8000950F7A /* LoopBack-Example */,
+				AF2CABFA1A355E8000950F7A /* LoopBack-ExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF2CABE21A355E8000950F7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF2CABF11A355E8000950F7A /* Main.storyboard in Resources */,
+				AF2CABF61A355E8000950F7A /* LaunchScreen.xib in Resources */,
+				AF2CABF31A355E8000950F7A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF2CABF91A355E8000950F7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF2CABE01A355E8000950F7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF8011DB1A42542C000787A4 /* Utilities.swift in Sources */,
+				AF2CABEE1A355E8000950F7A /* DetailViewController.swift in Sources */,
+				AFC47D301A3BC55800D81014 /* Transactions.swift in Sources */,
+				AF2CABEC1A355E8000950F7A /* MasterViewController.swift in Sources */,
+				AF2CABEA1A355E8000950F7A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF2CABF71A355E8000950F7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF2CAC021A355E8000950F7A /* LoopBack_ExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF2CABFD1A355E8000950F7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF2CABE31A355E8000950F7A /* LoopBack-Example */;
+			targetProxy = AF2CABFC1A355E8000950F7A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AF2CABEF1A355E8000950F7A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF2CABF01A355E8000950F7A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF2CABF41A355E8000950F7A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF2CABF51A355E8000950F7A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF2CAC031A355E8000950F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF2CAC041A355E8000950F7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF2CAC061A355E8000950F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "LoopBack-Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LoopBack-Example-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF2CAC071A355E8000950F7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "LoopBack-Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LoopBack-Example-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		AF2CAC091A355E8000950F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LoopBack-ExampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoopBack-Example.app/LoopBack-Example";
+			};
+			name = Debug;
+		};
+		AF2CAC0A1A355E8000950F7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LoopBack-ExampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoopBack-Example.app/LoopBack-Example";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF2CABDF1A355E7F00950F7A /* Build configuration list for PBXProject "LoopBack-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF2CAC031A355E8000950F7A /* Debug */,
+				AF2CAC041A355E8000950F7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF2CAC051A355E8000950F7A /* Build configuration list for PBXNativeTarget "LoopBack-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF2CAC061A355E8000950F7A /* Debug */,
+				AF2CAC071A355E8000950F7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF2CAC081A355E8000950F7A /* Build configuration list for PBXNativeTarget "LoopBack-ExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF2CAC091A355E8000950F7A /* Debug */,
+				AF2CAC0A1A355E8000950F7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF2CABDC1A355E7F00950F7A /* Project object */;
+}
